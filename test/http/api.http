@@ -1,0 +1,11 @@
+###
+GET http://localhost:3000/users/me
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiaWRAZW1haWwuY29tIiwiaWF0IjoxNzQ2MjgzNjA4LCJleHAiOjE3NDYzNzAwMDh9.8ynx5hi5vQHiss5kCRMCUib6lOLaaC0E6OlabSIfLzE
+
+
+###
+GET http://localhost:3000/comments/:postId?postId=1
+
+###
+GET http://localhost:3000/messages/unread-count
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoibGVtb25pc3NzQGdtYWlsLmNvbSIsImlhdCI6MTc0NjY4NzU5MSwiZXhwIjoxNzQ2NzczOTkxfQ.M9BlluSW2re1BjDDRFcfsBjFEtUC8ziZyFeWAvEr6AY
